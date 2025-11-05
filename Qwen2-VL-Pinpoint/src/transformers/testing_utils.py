@@ -198,7 +198,7 @@ USER = "__DUMMY_TRANSFORMERS_USER__"
 ENDPOINT_STAGING = "https://hub-ci.huggingface.co"
 
 # Not critical, only usable on the sandboxed CI instance.
-TOKEN = "hf_94wBhPGp6KrrTH3KDchhKpRxZwd6dmHWLL"
+TOKEN = "HF_TOKEN_REMOVED"
 
 
 # Used in CausalLMModelTester (and related classes/methods) to infer the common model classes from the base model class
