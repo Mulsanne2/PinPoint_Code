@@ -13,9 +13,9 @@ pip install anls
 
 # Qwen Environment
 conda create -n qwen_ft python=3.10 -y   
-conda activate qwen_ft   
-conda install nvidia/label/cuda-12.2.2::cuda-toolkit -y   
-pip install torch==2.6.0 torchvision==0.21.0 deepspeed==0.17.1 triton==3.2.0 accelerate==1.7.0 torchcodec==0.2 peft==0.17.1   
+conda activate qwen_ft
+conda install nvidia/label/cuda-12.2.2::cuda-toolkit -y
+pip install torch==2.6.0 torchvision==0.21.0 deepspeed==0.17.1 triton==3.2.0 accelerate==1.7.0 torchcodec==0.2 peft==0.17.1
 pip install -e .   
-pip install qwen-vl-utils==0.0.14   
-pip install matplotlib   
+pip install qwen-vl-utils==0.0.14
+pip install matplotlib
